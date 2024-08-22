@@ -1,0 +1,12 @@
+{
+    "target": {
+        "url": "http://localhost:8080/banner",
+        "headers": {
+            "Authorization": "Bearer <<TOKEN>>"
+        },
+        "query": {}
+    },
+    "compare": {
+        "url": "http://localhost:3003/v1/banners"
+    }
+}
